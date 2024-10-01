@@ -1,0 +1,476 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.938);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    border-top: 2px solid rgba(133, 117, 29, 0.61)  ;
+    border-bottom: 2px solid rgba(133, 117, 29, 0.61)  ;
+    display: flex;
+    width: 83%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    margin-left: 8%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.geral2{
+    width: auto;
+}
+
+.card2{
+    text-align: center;
+}
+
+.geral {
+    border-radius: 8px;
+    padding: 0;
+    width: 30%; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px; 
+    background-color: #fff; 
+}
+
+.geral img {
+    width: 180px;
+    height: 250px;
+    border-radius: 8px;
+    margin-right: 10px; 
+    margin-top: 5px;
+    margin-left: 5px;
+    flex-shrink: 0; 
+}
+
+.geral .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.geral h1, .geral h4, .geral h5 {
+    margin: 0;
+}
+
+.geral h4 {
+    margin-top: 8px;
+}
+
+/* Casas conteires */
+.grifinoria {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 22%, rgba(255, 7, 7, 0.856));
+    
+}
+
+.lufalufa{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 22%, rgb(170, 130, 0));
+    
+}
+
+.corvinal {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 22%, rgba(44, 57, 245, 0.856));
+    
+}
+
+.sonserina {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 22%, rgba(29, 150, 18, 0.849))
+    
+}
+.nenhum{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 22%, rgba(255, 255, 255, 0.849))
+    
+}
+
+/* Favoritos */
+#favoritos{
+    border-top: 2px solid rgba(2, 68, 143, 0.767)  ;
+    border-bottom: 2px solid  rgba(2, 68, 143, 0.767) ;
+    padding-top: 60px;
+    margin-bottom: 15px;
+    
+}
+
+#favoritos .botao2{
+    color: rgba(250, 235, 215, 0);
+    background-color: #ffffff00;
+    border: none;
+    cursor: default;
+}
+.h1{
+    color: rgba(255, 0, 0, 0.616);
+}
+
+/* Pesquisa  e Filtro*/
+
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border-width: 0;
+    white-space: nowrap;
+}
+
+.input-wrapper {
+    text-align: center;
+    position: relative;
+    margin-top: 15px;
+}
+
+.input-wrapper i {
+    position: absolute;
+    right: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+
+#filter {
+    padding: 10px;
+    padding-right: 300px;
+    border-radius: 6px;
+    background-color: rgba(24, 24, 24, 0.473);
+    
+    border:  2px solid rgba(36, 124, 1, 0.39);
+}
+
+/* Botao */
+
+.botao{
+    background: none;
+    font-size: 40px;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 0;
+    /* position: ra;  */
+    /* bottom: 50px; */
+    cursor: pointer;
+
+
+
+}
+ 
+.botao:hover{
+    color:  rgb(248, 197, 28);
+}
+
+
+/* Mais conteudos */
+
+.mais{
+    width: 100%;
+
+}
+.botao2{
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 26px;
+    font-size: 20px;
+    border: 2px solid rgb(115, 115, 255);
+    border-radius: 8px;
+    
+}
+.botao2:hover{
+    border: 2px solid rgb(115, 115, 255);
+    background:  rgb(115, 115, 255);
+    border-radius: 8px;
+    
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 1450px) {
+    .container {
+        display: flex;
+    }
+
+    .geral {
+        width: 22%; 
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 5.2px;
+    }
+
+
+    .geral h1, .geral h4, .geral h5 {
+        font-size: 15px;
+        margin-bottom: 15px;
+        
+    }
+    .botao{
+        background: none;
+        font-size: 40px;
+        border: none;
+        color: rgb(0, 0, 0);
+        padding: 0;
+        position: relative; 
+        bottom: 5px;
+        cursor: pointer;
+    
+    }
+    .geral img {
+        width: 49%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .grifinoria {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 22%, rgba(255, 7, 7, 0.856));
+    }
+
+    .lufalufa {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 22%, rgb(170, 130, 0));
+    }
+
+    .corvinal {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 22%, rgba(44, 57, 245, 0.856));
+    }
+
+    .sonserina {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 22%, rgba(29, 150, 18, 0.849));
+    }
+
+    .nenhum {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 30%, rgba(255, 255, 255, 0.849));
+    }
+}
+@media (max-width: 1300px) {
+    .container {
+        display: flex;
+    }
+
+    .geral {
+        width: 32%; 
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 5.2px;
+    }
+
+
+    .geral h1, .geral h4, .geral h5 {
+        font-size: 15px;
+        margin-bottom: 15px;
+        
+    }
+    .botao{
+        background: none;
+        font-size: 40px;
+        border: none;
+        color: rgb(0, 0, 0);
+        padding: 0;
+        position: relative; 
+        bottom: 5px;
+        cursor: pointer;
+    
+    }
+    .geral img {
+        width: 49%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .grifinoria {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 22%, rgba(255, 7, 7, 0.856));
+    }
+
+    .lufalufa {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 22%, rgb(170, 130, 0));
+    }
+
+    .corvinal {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 22%, rgba(44, 57, 245, 0.856));
+    }
+
+    .sonserina {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 22%, rgba(29, 150, 18, 0.849));
+    }
+
+    .nenhum {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 30%, rgba(255, 255, 255, 0.849));
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        display: flex;
+    }
+
+    .geral {
+        width: 32%; 
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 5.2px;
+    }
+
+
+    .geral h1, .geral h4, .geral h5 {
+        font-size: 15px;
+        margin-bottom: 15px;
+        
+    }
+    .botao{
+        background: none;
+        font-size: 40px;
+        border: none;
+        color: rgb(0, 0, 0);
+        padding: 0;
+        position: relative; 
+        bottom: 5px;
+        cursor: pointer;
+    
+    }
+    .geral img {
+        width: 49%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .grifinoria {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 22%, rgba(255, 7, 7, 0.856));
+    }
+
+    .lufalufa {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 22%, rgb(170, 130, 0));
+    }
+
+    .corvinal {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 22%, rgba(44, 57, 245, 0.856));
+    }
+
+    .sonserina {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 22%, rgba(29, 150, 18, 0.849));
+    }
+
+    .nenhum {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 30%, rgba(255, 255, 255, 0.849));
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+    }
+
+    .geral {
+        width: 32%; /* Ajuste para uma coluna */
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 5.2px;
+    }
+
+
+    .geral h1, .geral h4, .geral h5 {
+        font-size: 15px;
+        margin-bottom: 15px;
+        
+    }
+    .botao{
+        background: none;
+        font-size: 40px;
+        border: none;
+        color: rgb(0, 0, 0);
+        padding: 0;
+        position: relative; 
+        bottom: 5px;
+        cursor: pointer;
+    
+    }
+    .geral img {
+        width: 49%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .grifinoria {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 22%, rgba(255, 7, 7, 0.856));
+    }
+
+    .lufalufa {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 22%, rgb(170, 130, 0));
+    }
+
+    .corvinal {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 22%, rgba(44, 57, 245, 0.856));
+    }
+
+    .sonserina {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 22%, rgba(29, 150, 18, 0.849));
+    }
+
+    .nenhum {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 30%, rgba(255, 255, 255, 0.849));
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        display: flex;
+    }
+
+    .geral {
+        width: 32%; /* Ajuste para uma coluna */
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 5.2px;
+    }
+
+
+    .geral h1, .geral h4, .geral h5 {
+        font-size: 15px;
+        margin-bottom: 15px;
+        
+    }
+    .botao{
+        background: none;
+        font-size: 40px;
+        border: none;
+        color: rgb(0, 0, 0);
+        padding: 0;
+        position: relative; 
+        bottom: 5px;
+        cursor: pointer;
+    
+    }
+    .geral img {
+        width: 49%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .grifinoria {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 22%, rgba(255, 7, 7, 0.856));
+    }
+
+    .lufalufa {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 22%, rgb(170, 130, 0));
+    }
+
+    .corvinal {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 22%, rgba(44, 57, 245, 0.856));
+    }
+
+    .sonserina {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 22%, rgba(29, 150, 18, 0.849));
+    }
+
+    .nenhum {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 30%, rgba(255, 255, 255, 0.849));
+    }
+}
