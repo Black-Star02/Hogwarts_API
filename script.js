@@ -106,11 +106,11 @@ function toggleAtor(card2, atorNome, yearOfBirth, dateOfDeath) {
 
         const dataNascimento = document.createElement("p");
         dataNascimento.classList.add("vida");
-        dataNascimento.textContent = `Data de Nascimento: ${ yearOfBirth}`;
+        dataNascimento.textContent = `Ano do Nascimento: ${ yearOfBirth}`;
 
         const dataMorte = document.createElement("p");
         dataMorte.classList.add("morte");
-        dataMorte.textContent = `Data de Morte: ${dateOfDeath}`;
+        dataMorte.textContent = `Data da Morte: ${dateOfDeath}`;
 
         card2.appendChild(dataNascimento);
         card2.appendChild(dataMorte);
